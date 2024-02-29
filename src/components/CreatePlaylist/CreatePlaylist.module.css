@@ -1,0 +1,17 @@
+.backButton {
+    padding: 1rem;
+    cursor: pointer;
+}
+.plus {
+    font-size: 2rem;
+}
+.createPlaylistContainer {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.resultsFlexContainer {
+    display: flex;
+    gap: 1rem;
+}

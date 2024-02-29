@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+.appContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-image: url(../public/pexels-elviss-railijs-bitāns-1389429.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    position: relative;
+}
+
+.backgroundBlur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../public/pexels-elviss-railijs-bitāns-1389429.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(5px); /* Adjust the blur intensity as needed */
+    z-index: -1; /* Push the blurred background behind other content */
+}
